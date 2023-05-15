@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>MuMep</title>
+        <meta charset="utf-8">
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+        <!--icone-->
+        <script src="https://kit.fontawesome.com/ed7f9265eb.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!--Documento CSS-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--Favicon-->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body class="gold-background container-fluid">
+        <div class="img-background">
+            <header>
+                <nav>
+                    <ul>
+                        <img class="logo" src="img/Logo_trasparente.png" alt="MuMeP_logo">
+                        <li><a class="blacklink" href="#login"><i class="fa-solid fa-circle-user" style="color: #000000; font-size: large;"></i></a></li>
+                        <li><a class="blacklink active" href="about.html">About</a></li>
+                        <li><a class="blacklink active" href="explore.html">Explore</a></li>
+                        <li><a class="blacklink active" href="index.html">Homepage</a></li>
+                    </ul>
+                <h1 id="homepage_title">MuMeP</h1>
+                <p id="subtitle">Cerchi qualcuno per suonare con te?</p>
+                </nav>
+                <div class="center">
+                    <a class="explore" id="Button1" href="explore.html">Trovalo qui!</a>
+                    </div>
+            </header>
+        </div>
+        <section class="p_index">
+            <p>Se cerchi qualcuno con cui suonare o cantare sei nel posto giusto! Con Musicians Meeting Point potrai:</p>
+        </section>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header orange"><i class="fa-solid fa-people-group" style="color: #000000;"></i></div>
+                        <div class="card-body lightorange">
+                        <h5 class="card-title bold">Trovare i membri per la tua band</h5>
+                        <p class="card-text">Se vuoi creare una band da zero o hai bisogno di un nuovo membro per la tua band, con MuMeP potrai trovare i musicisti più adatti alle tue necessità cercando in base al genere musicale, allo strumento e alla città in cui vivi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4"> 
+                    <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+                        <div class="card-header orange"><i class="fa-solid fa-guitar" style="color: #000000;"></i></div>
+                        <div class="card-body lightorange">
+                        <h5 class="card-title bold">Trovare un amico musicale occasionale</h5>
+                        <p class="card-text">Se vuoi trovare nuovi amici con cui suonare o cantare per un pomeriggio, con MuMeP potrai trovare i musicisti più adatti alle tue necessità cercando in base al numero di persone, allo strumento e alla città in cui vivi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header orange"><i class="fa-solid fa-music" style="color: #000000;"></i></div>
+                        <div class="card-body lightorange">
+                        <h5 class="card-title bold">Farti trovare da altri musicisti</h5>
+                        <p class="card-text">Con la creazione di un profilo su MuMeP potrai essere invitato in ogni momento a diventare il nuovo membro di una band della tua città o a passare un pomeriggio alternativo all’insegna della musica con nuovi amici</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <section>
+            <a class="explore p_index center" id="Button2" href="explore.html">Inizia subito a cercare su MuMeP</a>
+        </section>
+        
+        <form action="/action_page.php" id="login">
+                        <h2>Login Form</h2>
+                        <div class="formcontainer">
+                        <hr/>
+                        <div class="container justify-content-center">
+                        <label for="uname"><strong>Username</strong></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        <label for="psw"><strong>Password</strong></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        </div>
+                        <button type="submit">Login</button>
+                        <div class="container" style="background-color: #f1b44c">
+                        <label style="padding-left: 15px">
+                        <input type="checkbox"  checked="checked" name="remember"> Remember me
+                        </label>
+                        </div>
+                    </form>
+
+                <p>Se ancora non hai un profilo registrati <a href="#registration">qui</a></p>
+
+                <div class="main-block" id="registration">
+                    <form action="/">
+                      <h2>Crea il tuo account</h2>
+                      <fieldset>
+                        <legend>
+                          <h3>Account Details</h3>
+                        </legend>
+                        <div  class="account-details">
+                          <div><label>Email</label><input type="text" name="name" required></div>
+                          <div><label>Password</label><input type="password" name="name" required></div>
+                          <div><label>Repeti email</label><input type="text" name="name" required></div>
+                          <div><label>Repeti password</label><input type="password" name="name" required></div>
+                        </div>
+                      </fieldset>
+                      <fieldset>
+                        <legend>
+                          <h3>Personal Details</h3>
+                        </legend>
+                        <div  class="personal-details">
+                          <div>
+                            <div><label>Nome</label><input type="text" name="name" required></div>
+                            <div><label>Città</label><input type="text" name="name" required></div>
+                            <div><label>Strumento/i</label><input type="text" name="name"></div>
+                            <div><label>Genere musicale</label><input type="text" name="name" required></div>
+                              <label>Paese</label>  
+                              <select>
+                                <option value=""></option>
+                                <option value="">Italia</option>
+                                <option value="">Spagna</option>
+                                <option value="">Germania</option>
+                                <option value="">Francia</option>
+                                <option value="">UK</option>
+                                <option value="">altro</option>
+                              </select>
+                              <label>Livello di competenza</label>              
+                              <select required>
+                                <option value=""></option>
+                                <option value="">basico</option>
+                                <option value="">principiante</option>
+                                <option value="">intermedio</option>
+                                <option value="">avanzato</option>
+                                <option value="">professionista</option>
+                              </select>
+                          </div>
+                              </div>
+                            </div>
+                      </fieldset>
+                      <button type="submit" href="/">Submit</button>
+                    </form>
+                </div>
+            <hr>
+                <footer>
+            <div class="row">
+                <div class="col-4">
+                    <ul class="nobullet">
+                    <li><img class="logo" id="logo_footer" src="img/Logo_trasparente.png" alt="MuMeP_logo"></li>
+                    <li><a href="index.html #login">Login</a></li>
+                    <li><a href="index.html #register">Crea un account</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul class="nobullet">
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul class="nobullet">
+                        <li><a target="_blank" href="https://www.instagram.com/elenasof19/?hl=it"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a> <a target="_blank" href="https://github.com/elenasof19"><i class="fa-brands fa-github" style="color: #000000;"></i></a></li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li><i>Designed by Elena Sofia Fronteddu</i></li>
+                    </ul>
+                </div>
+             </div>
+        </footer>
+    </body>
+</html>

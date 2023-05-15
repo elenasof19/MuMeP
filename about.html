@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ita">
+    <head>
+        <title>MuMeP</title>
+        <meta charset="utf-8">
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+        <!--icone-->
+        <script src="https://kit.fontawesome.com/ed7f9265eb.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!--Documento CSS-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--Favicon-->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body class="gold-background no_bootstrap">
+        <header>
+            <nav>
+                <ul>
+                    <img class="logo" src="img/Logo_trasparente.png" alt="MuMeP_logo">
+                    <li><a class="blacklink" href="index.html #login"><i class="fa-solid fa-circle-user" style="color: #000000; font-size: large;"></i></a></li>
+                    <li><a class="blacklink" href="about.html">About</a></li>
+                    <li><a class="blacklink" href="explore.html">Explore</a></li>
+                    <li><a class="blacklink" href="index.html">Homepage</a></li>
+                </ul>
+            </nav>    
+        </header>
+        <h1>Documentazione</h1>
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb gold-background">
+                <li class="breadcrumb-item"><a class="blacklink" href="index.html">Homepage</a></li>
+                <li class="breadcrumb-item active" aria-current="page">About</li>
+                </ol>
+            </nav>
+            <main id="documentazione">
+                <h2>Abstract</h2>
+                        MuMeP è un sito d’incontri per musicisti: chiunque stia cercando un nuovo membro per la sua band o una o più persone disposte a suonare insieme anche solo per una giornata può trovarlo qui.
+                        MuMeP è il primo sito web italiano completamente gratuito che permette a persone di tutte le età di incontrarsi e fare musica insieme, selezionando gli altri utenti in base a città, strumento e genere musicale.
+                <h2>Project Management Plan</h2>
+                <ul>
+                    <li>BENCHMARKING <br/>
+                        <ul>
+                            <li>
+                                Obiettivi <br/>
+                                Il progetto MuMeP punta alla creazione di una piattaforma gratuita online attiva in Italia tramite la quale sia possibile conoscere nuove persone con cui poter suonare e cantare insieme accordandosi privatamente, senza quindi l’intermediazione di locali pubblici.
+                            </li>
+                            <li>
+                                Target <br/>
+                                Il target utente è chiunque sappia suonare uno strumento o canti, sia desideroso di suonare in compagnia e che abbia familiarità con i siti d’incontri online.
+                            </li>
+                            <li>
+                                Competitors <br/>
+                                <ul>
+                                    <li>
+                                        Vampr.me: applicazione d’incontri per musicisti attiva in Italia con versione limitata gratuita e versione premium a pagamento. L’interazione con gli altri utenti sull'app Vampr.me avviene stabilendo dei match con i profili che compaiono nella homepage.
+                                    </li>
+                                    <li>
+                                        jamkazam: sito d’incontri online per musicisti che vogliono suonare insieme a distanza
+                                    </li>
+                                    <li>
+                                        musicianfinder: sito d’incontri online per musicisti che vogliono entrare a far parte di una band e per band che cercano nuovi membri.
+                                    </li>
+                                    <li>
+                                        gohendrix.com: sito d’incontri gratuito per musicisti che vogliono trovare qualcuno con cui suonare insieme dal vivo accordandosi privatamente. Funziona attraverso una visualizzazione dei profili degli utenti in base a criteri di selezione soggettivi. È attivo solamente negli Stati Uniti.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        STRUTTURA E LAYOUT
+                        <ul>
+                            <li>
+                                Rappresentazione grafica ad albero <br/>
+                                <img src="img/alberazione.jpg" alt="Homepage; Explore; About">
+                            </li>
+                            <li>
+                                Wireframe  <br/>
+                               <img class="wireframes" src="img/Wireframe_homepage.jpg" alt="Wireframe homepage">
+                               <img class="wireframes" src="img/Wireframe_explore.jpg" alt="Wireframe explore">
+                               <img class="wireframes" src="img/Wireframe_about.jpg" alt="Wireframe about">
+                            </li>
+                            <li>
+                                Look and feel <br/>
+                                La palette di colori è composta da tonalità calde sui toni del giallo, ocra, arancione e rosso sia per quanto riguarda lo sfondo, i bottoni, le cards sia per distinguere alcuni titoli o stati dei link. 
+                                Per quanto riguarda il testo scritto viene utilizzata la font sans-serif “Lato” per i titoli, i bottoni e i link; mentre la font serif “Lora” per i paragrafi e i testi più lunghi.
+                                Nella homepage sono presenti delle card per spiegare sinteticamente ciò che è possibile fare con MuMeP e dei form per l'accesso all'account utente. Nella pagina Explore invece sono presenti una barra di ricerca e delle liste dropdown con check-box per permettere all'utente di cercare i profili più compatibili alle sue necessità in base a criteri di selezione soggettivi.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        LINGUAGGI E STRUMENTI <br/>
+                        <ul>
+                            <li>I linguaggi web utilizzati sono HTML, CSS e Javascript.</li>
+                            <li>Gli strumenti tecnologici utilizzati sono: Adobe color per la scelta della palette di colori; Google Fonts per i font; Font Awesome per le icone; Favicon.ico Generator per la creazione del favicon; Bootstrap, W3 Docs e Codepen.io per alcuni elementi di grafica; PowerPoint per l’alberazione del sito; Balsamiq per il Wireframe; Google Analytics per tenere conto delle visualizzazioni del sito; Github per la pubblicazione.</li>
+                        </ul>
+                    </li>
+                </ul> 
+                <h2>Communication Strategy</h2>
+                <ul>
+                    <li>
+                    BACKGROUND <br/>
+                    Esistono diverse piattaforme con l’obiettivo di mettere in contatto locali e musicisti (come iLivemusic) o band e musicisti singoli (come musicianfinder e musofinder), ma ne esistono poche con l’obiettivo di mettere in contatto tra loro singoli musicisti per organizzare incontri privati e informali. Le tre maggiori piattaforme con questo obiettivo sono: 
+                        <li>-Vampr.me: un’applicazione con un primo accesso gratuito ma con servizi avanzati disponibili solo a pagamento. Vampr.me poi permette all’utente una selezione solo tra i profili suggeriti dall’algoritmo dell’applicazione, ma non rende disponibile una barra di ricerca o una ricerca secondo criteri soggettivi;</li>
+                        <li>-jamkazam: sito web che permette agli utenti di incontrarsi e suonare insieme ma solo in modalità virtuale, senza quindi dare la possibilità di organizzare incontri di persona;</li>
+                        <li>-gohendrix.com: sito web che permette agli utenti di incontrarsi privatamente e fisicamente mettendo a disposizione una barra di ricerca e criteri di selezione dei profili come località, tipo di profilo, genere musicale e strumento. L’unica limitazione di gohendrix è che è funzionante solo negli Stati Uniti.</li>
+                    </li>
+                    <li>
+                        OBIETTIVI COMUNICATIVI <br/>
+                        L'obiettivo di MuMep è rendere disponibile gratuitamente una piattaforma attraverso la quale si possano incontrare fisicamente nella propria città nuove persone appassionate di musica e suonare insieme a loro.
+                        MuMeP, inoltre, cerca di agevolare il processo di ricerca dei profili in modo da permettere di trovare un partner musicale che soddisfi il più possibile le necessità di ognuno.
+                    </li>
+                    <li>
+                        TARGET AUDIENCE E MESSAGGIO <br/>
+                        Il sito si rivolge a chi ha voglia di fare musica insieme a persone nuove, incontrandosi fisicamemte e con una comunicazione diretta. <br/>
+                        Nella maggior parte dei casi questo tipo di persone rientra nel gruppo demografico tra i 16 e i 30 anni, in quanto, in quella fascia d'età, si ha più voglia di passare il proprio tempo libero conoscendo persone nuove con le proprie stesse passioni. <br/>
+                        Solitamente i giovani vengono raggiunti facilmente tramite i social media ma, attraverso delle produzioni grafiche da distribuire in città, è possibile raggiungere sia loro che la restante parte del target non facente parte della fascia demografica tra i 16 e i 30 anni. <br/>
+                        Nel target secondario possono rientrare tutte quelle persone che hanno voglia di fare nuove conoscenze, anche se non hanno un interesse particolare per la musica. <br/>
+                        Con MuMeP si spera di incoraggiare le persone a fare nuove esperienze, conoscere nuove persone e condividere la propria passione per la musica con gli altri.
+                    </li>
+                    <li>
+                        PROMOZIONE <br/>
+                        Il sito è promosso tramite social media: come link nei gruppi WhatsApp e come storia su Instagram. <br/>
+                        Gli obiettivi prefissati sono: 100 visualizzazioni nella storia Instagram e 50 visite al sito
+                    </li>
+                    <li>
+                        VALUTAZIONE DEI RISULTATI
+                    </li>
+                </ul>
+        </main>
+    <hr>
+        <footer>
+            <div class="row">
+                <div class="col-4">
+                    <ul class="nobullet">
+                    <li><img class="logo" id="logo_footer" src="img/Logo_trasparente.png" alt="MuMeP_logo"></li>
+                    <li><a href="index.html #login">Login</a></li>
+                    <li><a href="index.html #register">Crea un account</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul class="nobullet">
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul class="nobullet">
+                        <li><a target="_blank" href="https://www.instagram.com/elenasof19/?hl=it"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a> <a target="_blank" href="https://github.com/elenasof19"><i class="fa-brands fa-github" style="color: #000000;"></i></a></li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li><i>Designed by Elena Sofia Fronteddu</i></li>
+                    </ul>
+                </div>
+             </div>
+        </footer>
+    </body>
+</html>

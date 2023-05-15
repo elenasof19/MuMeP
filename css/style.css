@@ -1,0 +1,381 @@
+.center {
+    margin-right: auto;
+    text-align: center;
+}
+
+.img-background {
+    background-image: url(https://cdn.pixabay.com/photo/2019/12/29/17/03/musicians-4727548_1280.png) ;
+    background-color: #DEB928;
+    background-position: 100%;
+    background-size: 100% 100%;
+    margin: -40px -15px 0px -15px;
+    border: -3%;
+    padding: 0% 0% 15% 0%;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 0%;
+    margin-top: 1%;
+    padding-left: 0%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0%;
+    padding: 2% 2% 0% 0%;
+    float: right;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+a:hover {
+    color:#DE6228;
+}
+
+a:active {
+    text-decoration-color: #8F221E;
+    background-color: #8F221E;
+}
+
+.blacklink {
+    color: black;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+#homepage_title {
+    font-size: 14vw;
+    text-align: center;
+    float: center;
+    padding: 11% 0% 0% 0%;
+    margin: 0%;
+}
+
+#subtitle {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 4vw;
+    text-align: center;
+    color: #8F221E;
+    outline-color: black;
+    outline-width: 1px;
+}
+
+.explore {
+    font-size: 150%;
+    font-weight: bold;
+    float: center !important;
+    color: black;
+}
+
+#Button1 {
+    padding: 1.2%;
+    text-align: center;
+    float: center;
+    background-color: #8F221E;
+    border-radius: 45%;
+}
+
+.gold-background {
+    background-color:#DEB928;
+}
+
+.container-fluid {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+}
+
+p {
+    font-size: 120%;
+    font-family: 'Lora'; serif;
+    font-weight: 400;
+    color: black;
+}
+
+section {
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin: 5%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.orange {
+    background-color: #DE6228;
+}
+
+.lightorange {
+    background-color: #F5A938;
+}
+
+#Button2 {
+    background-color: #8F221E;
+    padding: 2%;
+    border-radius: 45%;
+}
+
+form {
+    font-family: 'Lato', 'sans-serif';
+    border: 70px solid #DEB928;
+}
+
+
+input[type=text], input[type=password] {
+    font-family: 'Lora', serif;
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+ }
+
+ label {
+    font-family: 'Lora', serif;
+    color: black;
+ }
+
+ h3 {
+    font-family: 'Lato', 'sans-serif';
+    color: black;
+ }
+
+button {
+    font-family: 'Lato', 'sans-serif';
+    background-color: #DE6228;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: grabbing;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Lato', 'sans-serif';
+    text-align:center;
+    font-size:18;
+    padding: 1%;
+    color: #8F221E;
+    }
+
+button:hover {
+    opacity: 0.8;
+}
+
+.formcontainer {
+    font-family: 'Lora', serif;
+    text-align: left;
+    margin: 24px 50px 12px;
+    border: 0%;
+}
+
+.container {
+    padding: 16px 0;
+    text-align:left;
+}
+        
+span.psw {
+        float: right;
+        padding-top: 0;
+        padding-right: 15px;
+}
+/* Change styles for span on extra small screens */
+        @media screen and (max-width: 300px) {
+        span.psw {
+        display: block;
+        float: none;
+}
+
+ul li {
+    padding: 1%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+#explore_title {
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    padding: 8% 10% 0% 10%;
+    margin: 5%;
+}
+
+.breadcrumb {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    opacity: 50%;
+}
+
+.criteri_ricerca p {
+    font-family: 'Lora'; serif;
+    font-weight: 500;
+}
+
+.box {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'Lato', sans-serif;
+}
+
+.log_reg_buttons {
+    font-family: 'Lora'; serif;
+    font-weight: 600;
+    color:#8F221E
+}
+
+.no_bootstrap {
+    font-family: 'Lora' !important; serif;
+    background-color: #DEB928;
+    text-align: left;
+    float: left;
+    margin:0%;
+    border:5%;
+    padding:0.5%;
+}
+
+main {
+    font-family: 'Lora' !important; serif;
+    background-color: #DEB928;
+    text-align: left;
+    float: left;
+    margin:0%;
+    border:5%;
+    padding:0.5%;
+}
+
+#documentazione {
+    font-family: 'Lora' !important; serif;
+    background-color: #DEB928;
+    text-align: left;
+    float: left;
+    margin:0%;
+    border:5%;
+    padding:0.5%;
+}
+
+
+
+.wireframes {
+    vertical-align: none !important;
+    height: 40px;
+    width: auto;
+    padding: 2%;
+}
+
+}
+
+
+        * {
+          box-sizing: border-box;
+        }
+        
+        a {
+          text-decoration: none;
+          color: #8F221E;
+        }
+        
+        body {
+          margin: 40px;
+          font-family: 'Lora'; serif;
+        }
+        
+        .dropdown {
+          position: relative;
+          font-size: 14px;
+          color: #333;
+        
+          .dropdown-list {
+            padding: 12px;
+            background: #F5A938;
+            position: absolute;
+            top: 30px;
+            left: 2px;
+            right: 2px;
+            box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+            transform-origin: 50% 0;
+            transform: scale(1, 0);
+            transition: transform .15s ease-in-out .15s;
+            max-height: 66vh;
+            overflow-y: scroll;
+          }
+          
+          .dropdown-option {
+            font-family: 'Lora', serif;
+            color: black;
+            display: block;
+            padding: 8px 12px;
+            opacity: 0;
+            transition: opacity .15s ease-in-out;
+          }
+          
+          .dropdown-label {
+            font-family: 'Lato', sans-serif;
+            color: black;
+            display: block;
+            height: 30px;
+            background: #DE6228;
+            border: 1.5px solid #8F221E;
+            padding: 6px 12px;
+            line-height: 1;
+            cursor: pointer;
+            
+            &:before {
+              content: '▼';
+              float: right;
+            }
+          }
+          
+          &.on {
+          .dropdown-list {
+              transform: scale(1, 1);
+              transition-delay: 0s;
+              
+              .dropdown-option {
+                opacity: 1;
+                transition-delay: .2s;
+              }
+            }
+            
+            .dropdown-label:before {
+              content: '▲';
+            }
+          }
+          
+          [type="checkbox"] {
+            position: relative;
+            top: -1px;
+            margin-right: 4px;
+          }
+        }
+
+footer {
+    display: block;
+    background-color: #DEB928;
+    background-position: 100%;
+    font-family: 'Lato', 'sans-serif';
+    font-size: 120%;
+    padding: 2% 0% 0% 0%;
+    line-height: 200%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#logo_footer {
+   width: 50%;
+   height: auto;
+}
+
+.nobullet {
+    list-style-type: none;
+    text-align: center;
+}
